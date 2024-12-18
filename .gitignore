@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build output
+/dist
+/build
+/es/
+
+# Dependency directories
+jspm_packages/
+
+# VS Code settings
+.vscode/
+
+# Webpack
+/.webpack/
+
+# Testing
+*.test.js
+*.spec.js
+
+# Ignore npm package lock file (optional, for libraries)
+package-lock.json
+
+# Ignore yarn lock file (optional, for libraries)
+yarn.lock

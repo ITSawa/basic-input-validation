@@ -1,0 +1,30 @@
+{
+  "name": "basic-input-validation",
+  "version": "1.0.0",
+  "description": "A simple library for basic input validation",
+  "main": "dist/script.cjs",
+  "module": "dist/script.js",
+  "types": "dist/script.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/script.cjs",
+      "import": "./dist/script.js",
+      "types": "./dist/script.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "rollup": "^2.0.0",
+    "jest": "^26.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-commonjs": "^19.0.0"
+  }
+}
