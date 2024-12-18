@@ -133,7 +133,7 @@ Installation
 You can install the package using npm:
 
 bash
-Копировать код
+
 npm install basic-input-validation
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
